@@ -1,4 +1,4 @@
-# 只言片语 -- 静态导航主页
+# 不吃鱼的胖橘 -- 静态导航主页
 
 采用HTML+CSS+JQ开发的最简单的静态页面，搭配github pages或者是coding pages食用效果最佳！
 
