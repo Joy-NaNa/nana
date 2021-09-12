@@ -91,22 +91,26 @@ $(function() {
       box_shadow: '#FA7199',
       icon: 'img/via.png',
     }
+    , {
+      name: '在线影视一号',
+      link: 'https://www.nfmovies.com/',
+      box_shadow: '#F2584A',
+      icon: 'img/headline.png',
+    }
+     
+    , {
+      name: '在线影视二号',
+      link: 'https://www.yingketuan.com/',
+      box_shadow: '#24292e',
+      icon: 'img/yingketuanlogo.png',
+    }
+    , {
+      name: '鸠摩搜书',
+      link: 'https://www.jiumodiary.com/#',
+      box_shadow: '#62677b',
+      icon: 'img/xmsoushulogo.png',
+    }
     // , {
-    //   name: '今日热榜',
-    //   link: 'https://tophub.today/',
-    //   box_shadow: '#F2584A',
-    //   icon: 'img/headline.png',
-    // }, {
-    //   name: '知乎',
-    //   link: 'https://www.zhihu.com/',
-    //   box_shadow: '#0078D8',
-    //   icon: 'img/zhihulogo.png',
-    // }, {
-    //   name: '小米商城',
-    //   link: 'https://www.mi.com/',
-    //   box_shadow: '#F57923',
-    //   icon: 'img/mi.png',
-    // }, {
     //   name: 'unsplash',
     //   link: 'https://unsplash.com/',
     //   box_shadow: '#2C2C2C',
