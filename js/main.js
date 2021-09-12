@@ -85,12 +85,13 @@ $(function() {
       box_shadow: '#11B063',
       icon: 'img/coolapk.png',
     }
+    , {
+      name: '酷漫屋',
+      link: 'http://m.kuman56.com/',
+      box_shadow: '#FA7199',
+      icon: 'img/via.png',
+    }
     // , {
-    //   name: 'Via插件',
-    //   link: 'http://via-app.cn',
-    //   box_shadow: '#FA7199',
-    //   icon: 'img/via.png',
-    // }, {
     //   name: '今日热榜',
     //   link: 'https://tophub.today/',
     //   box_shadow: '#F2584A',
