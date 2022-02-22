@@ -10,7 +10,7 @@
 
 ------------
 
-地址：[点击跳转](https://nav.kksan.top/)
+地址：[点击跳转](https://joy-nana.github.io/nana.GitHub.io/)
 
 #### 响应式
 
