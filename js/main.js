@@ -27,7 +27,7 @@ var blockquote = $('.blockquote');
 
 if (storage.data != undefined) {
   data = data.split(',');
-  // console.log('已存在localStorage的数据：' + data); //已存在localStorage的数据
+  console.log('已存在localStorage的数据：' + data); //已存在localStorage的数据
   $('#state a img').attr('src', data[0]); //头图
   $('.submitButton').css('background-color', data[1]); //按钮bgc
   $('#inputText').attr('placeholder', data[2]);
@@ -317,6 +317,13 @@ $(function() {
       searchname: 'nu',
       color: '#317EE7',
       placeholder: '搜快递...'
+    }, {
+      name: 'pangju',
+      icon: 'img/baidu-xs.png',
+      searchlink: 'https://www.nmme.cc/s/1/',
+      searchname: '',
+      color: '#3245df',
+      placeholder: '请输入影视名称...'
     }]
   }
   for (var i = 0; i < search.data.length; i++) { //添加搜索按钮
@@ -406,6 +413,11 @@ $('#bg').click(function() {
 function check() {
   var o = document.getElementById("inputText");
   var v = o.value;
+  var href = $('#form').attr('action');
+  if (href=="https://www.nmme.cc/s/1/") {
+    $('#form').attr('action',href+o.value);
+    console.log(href);
+  }
   v = v.replace(/[ ]/g, "");
   if (v == '') {
     return false;
