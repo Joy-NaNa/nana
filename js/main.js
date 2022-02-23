@@ -182,7 +182,7 @@ $(function() {
       icon: 'img/pangju-xs.png',
       searchlink: 'https://www.nmme.cc/s/1/',
       searchname: '',
-      color: '#3245df',
+      color: '#e6162d',
       placeholder: '请输入影视名称...'
     }, {
       name: 'baidu',
@@ -511,7 +511,11 @@ class searchHint {
     for (var i = 0; i < msg.s.length; i++) {
       var sk = new Array();
       sk[i] = msg.s[i].replace(/\s*/g, ''); //去掉关键字空格
-      str += '<a href=' + href + '?' + name + '=' + sk[i] + '><li><span>' + (i + 1) + '</span>' + msg.s[i] + '</li></a>';
+      if (href=="https://www.nmme.cc/s/1/") {
+        str += '<a href=' + href + sk[i] + '><li><span>' + (i + 1) + '</span>' + msg.s[i] + '</li></a>';
+      } else {
+        str += '<a href=' + href + '?' + name + '=' + sk[i] + '><li><span>' + (i + 1) + '</span>' + msg.s[i] + '</li></a>';
+      }
     }
     this.list.innerHTML = str;
     if (str) { //有返回才显示#searchlist
