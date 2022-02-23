@@ -319,7 +319,7 @@ $(function() {
       placeholder: '搜快递...'
     }, {
       name: 'pangju',
-      icon: 'img/baidu-xs.png',
+      icon: 'img/pangju-xs.png',
       searchlink: 'https://www.nmme.cc/s/1/',
       searchname: '',
       color: '#3245df',
