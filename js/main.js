@@ -178,6 +178,13 @@ $(function() {
 $(function() {
   var search = {
     data: [{
+      name: 'pangju',
+      icon: 'img/pangju-xs.png',
+      searchlink: 'https://www.nmme.cc/s/1/',
+      searchname: '',
+      color: '#3245df',
+      placeholder: '请输入影视名称...'
+    }, {
       name: 'baidu',
       icon: 'img/baidu-xs.png',
       searchlink: 'https://www.baidu.com/s',
@@ -317,13 +324,6 @@ $(function() {
       searchname: 'nu',
       color: '#317EE7',
       placeholder: '搜快递...'
-    }, {
-      name: 'pangju',
-      icon: 'img/pangju-xs.png',
-      searchlink: 'https://www.nmme.cc/s/1/',
-      searchname: '',
-      color: '#3245df',
-      placeholder: '请输入影视名称...'
     }]
   }
   for (var i = 0; i < search.data.length; i++) { //添加搜索按钮
