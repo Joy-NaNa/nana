@@ -20,12 +20,12 @@
 </head>
 <style>
   .momo{font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-animation:xintiao 1.33s ease-in-out infinite;animation:xintiao 1.33s ease-in-out infinite}@-webkit-keyframes xintiao{0%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(.8)}to{-webkit-transform:scale(1)}}@keyframes xintiao{0%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(.8);transform:scale(.8)}to{-webkit-transform:scale(1);transform:scale(1)}}
-  #main .avatar {
+  .main .avatar {
 	  position: relative;
 	  display: block;
 	  margin-bottom: 1.5em;
   }
-  #main .avatar::before {
+  .main .avatar::before {
 	  content: '';
 	  display: block;
 	  position: absolute;
@@ -36,7 +36,7 @@
 	  z-index: -1;
 	  background: #c8cccf;
   }
-  #main .avatar img {
+  .main .avatar img {
 	  display: block;
 	  margin: 0 auto;
 	  border-radius: 100%;
@@ -50,7 +50,7 @@
 </style>
 <body>
   <nav id="menu" class="menu">
-    <div id="main">
+    <div class="main">
       <span class="avatar">
         <img src="img/H6dab62e0541a46969864585570bca3a6Q.png" alt="">
       </span>
