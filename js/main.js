@@ -76,7 +76,7 @@ $(function() {
   var bookmark = {
     data: [{
       name: '影视资源一号',
-      link: 'https://w.wxbxkx.com/',
+      link: 'https://c.wxbxkx.com/',
       box_shadow: '#F18033',
       icon: 'img/log.png',
     }, {
