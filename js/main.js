@@ -81,7 +81,7 @@ $(function() {
       icon: 'img/log.png',
     }, {
       name: '影视资源二号',
-      link: 'http://pp.ailook.cool/apps/index.html?id=1111',
+      link: 'http://kzurl01.cn/27Mja',
       box_shadow: '#11B063',
       icon: 'img/coolapk.png',
     }
