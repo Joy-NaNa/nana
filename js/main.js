@@ -511,7 +511,7 @@ class searchHint {
     for (var i = 0; i < msg.s.length; i++) {
       var sk = new Array();
       sk[i] = msg.s[i].replace(/\s*/g, ''); //去掉关键字空格
-      if (href=="https://www.nmme.cc/s/1/") {
+      if (href=="https://zeilou7777.cn/s/1/") {
         str += '<a href=' + href + sk[i] + '><li><span>' + (i + 1) + '</span>' + msg.s[i] + '</li></a>';
       } else {
         str += '<a href=' + href + '?' + name + '=' + sk[i] + '><li><span>' + (i + 1) + '</span>' + msg.s[i] + '</li></a>';
