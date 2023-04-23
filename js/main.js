@@ -180,10 +180,10 @@ $(function() {
     data: [{
       name: 'pangju',
       icon: 'img/pangju-xs.png',
-      searchlink: 'https://www.nmme.cc/s/1/',
+      searchlink: 'https://zeilou7777.cn/s/1/',
       searchname: '',
       color: '#e6162d',
-      placeholder: '请输入影视名称...'
+      placeholder: '请输入影视名称...(或者使用下方书签页)'
     }, {
       name: 'baidu',
       icon: 'img/baidu-xs.png',
