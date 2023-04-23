@@ -414,7 +414,7 @@ function check() {
   var o = document.getElementById("inputText");
   var v = o.value;
   var href = $('#form').attr('action');
-  if (href=="https://www.nmme.cc/s/1/") {
+  if (href=="https://zeilou7777.cn/s/1/") {
     $('#form').attr('action',href+o.value);
     console.log(href);
   }
