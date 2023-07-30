@@ -81,7 +81,7 @@ $(function() {
       icon: 'img/log.png',
     }, {
       name: '影视资源二号',
-      link: 'https://c1n.cn/CMPRa/',
+      link: 'https://c1ns.cn/CMPRa/',
       box_shadow: '#11B063',
       icon: 'img/coolapk.png',
     }
