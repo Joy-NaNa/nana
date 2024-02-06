@@ -86,21 +86,21 @@ $(function() {
       icon: 'img/coolapk.png',
     }
     , {
-      name: '酷漫屋',
-      link: 'http://m.kuman56.com/',
+      name: '漫搜',
+      link: 'https://www.mansou.co/',
       box_shadow: '#FA7199',
       icon: 'img/via.png',
     }
     , {
-      name: '在线影视一号',
-      link: 'https://www.nfmovies.com/',
+      name: '小说网',
+      link: 'https://mianfei22.com/',
       box_shadow: '#F2584A',
       icon: 'img/headline.png',
     }
      
     , {
-      name: '在线影视二号',
-      link: 'https://www.yingketuan.com/',
+      name: '在线影视',
+      link: 'https://www.chazhuji.com/',
       box_shadow: '#24292e',
       icon: 'img/yingketuanlogo.png',
     }
@@ -180,7 +180,7 @@ $(function() {
     data: [{
       name: 'pangju',
       icon: 'img/pangju-xs.png',
-      searchlink: 'https://zeilou7777.cn/s/1/',
+      searchlink: 'https://soupian.pro/search?key=',
       searchname: '',
       color: '#e6162d',
       placeholder: '请输入影视名称...(或者使用下方书签页)'
