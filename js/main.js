@@ -180,7 +180,7 @@ $(function() {
     data: [{
       name: 'pangju',
       icon: 'img/pangju-xs.png',
-      searchlink: 'https://soupian.pro/search?key=',
+      searchlink: 'https://soupian.pro/search',
       searchname: '',
       color: '#e6162d',
       placeholder: '请输入影视名称...(或者使用下方书签页)'
