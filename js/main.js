@@ -75,19 +75,19 @@ function rgb2hex(rgb) {
 $(function() {
   var bookmark = {
     data: [{
-      name: '影视资源一号',
-      link: 'http://zyz.xiaouj.cn/',
+      name: '影视一号',
+      link: 'http://u6v.cn/5yLGZl',
       box_shadow: '#F18033',
       icon: 'img/log.png',
     }, {
-      name: '影视资源二号',
-      link: 'https://c1ns.cn/CMPRa/',
+      name: '影视二号',
+      link: 'http://qq.kkkob.com/apps/index.html?id=211229kl&ref=kele',
       box_shadow: '#11B063',
       icon: 'img/coolapk.png',
     }
     , {
-      name: '漫搜',
-      link: 'https://www.mansou.co/',
+      name: '漫画',
+      link: 'http://u6v.cn/5yLH3R',
       box_shadow: '#FA7199',
       icon: 'img/via.png',
     }
